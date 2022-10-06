@@ -14,29 +14,29 @@
     </head>
  
 <body>
-<h1>Sai Charan Thakellapati Selects a Vacation</h1>
+<h1 style="text-align: center;">Sai Charan Thakellapati Selects a Vacation</h1>
 
 <div class="container">
-    <form>
+    <form style="padding: 10px;">
        
-        <input type="checkbox" id="air" name="vacation" value="true">
-        <label for="air">Travel by Air</label> <br>
+        <input type="checkbox" id="air" name="vacation" value="true" >
+        <label for="air" style="padding:10px;">Travel by Air</label> <br>
      
         <input type="checkbox" id="domestic" name="vacation" value="true">
-        <label for="domestic">Domestic</label> <br>
+        <label for="domestic" style="padding:10px;">Domestic</label> <br>
     
         <input type="checkbox" id="resort" name="vacation" value="false">
-        <label for="resort">Resort</label> <br>
+        <label for="resort" style="padding:10px;">Resort</label> <br>
     
-        <input type="button" class="btn btn-warning" value="Select a vacation" onclick="selectVacation()">
+        <input type="button" class="btn btn-success" value="Select a vacation" onclick="selectVacation()">
     
     </form>
     <br>
     <form>
-        <label for="city">Enter a city</label>
+        <label for="city" style="padding:20px ;">Enter a city</label>
         <input type="text" id="city" name="city" value="city"> <br>
         
-        <label for="city">Enter price</label>
+        <label for="city" style="padding: 20px;">Enter price</label>
         <input type="text" id="price" name="price"> <br>
     
         <input type="button" class="btn btn-success" value="Update the vacation" onclick="updateVacation()">
